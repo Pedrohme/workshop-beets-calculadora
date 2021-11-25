@@ -108,19 +108,19 @@ body {
     grid-area: nove;
 }
 
-.somar {
+[data-tecla='somar'] {
     grid-area: somar;
 }
 
-.subtrair {
+[data-tecla='subtrair'] {
     grid-area: subtrair;
 }
 
-.multiplicar {
+[data-tecla='multiplicar'] {
     grid-area: multiplicar;
 }
 
-.dividir {
+[data-tecla='dividir'] {
     grid-area: dividir;
 }
 
@@ -132,19 +132,19 @@ body {
     grid-area: duplo-zero;
 }
 
-.salvar {
+[data-tipo-tecla='salvar'] {
     grid-area: salvar;
 }
 
-.recuperar {
+[data-tipo-tecla='recuperar'] {
     grid-area: recuperar;
 }
 
-.limpar {
+[data-tipo-tecla='limpar'] {
     grid-area: limpar;
 }
 
-.igual {
+[data-tipo-tecla='igual'] {
     grid-area: igual;
 }
 
@@ -154,11 +154,11 @@ body {
     cursor: pointer;
 }
 
-.operador {
+[data-tipo-tecla='operador'] {
     background-color: var(--cor-fundo-operador-escuro);
 }
 
-.numero {
+[data-tipo-tecla='numero'] {
     background-color: var(--cor-fundo-numero-escuro);
     color: var(--cor-numero-escuro);
 }
