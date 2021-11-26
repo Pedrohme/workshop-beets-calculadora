@@ -15,10 +15,12 @@ teclas.addEventListener('click', (e) => {
         if (valorVisor === '0' || tipoTeclaAnterior === 'operador') {
             if (valorTecla === '00') {
                 visor.textContent = '0';
-            } else {
+            }
+            else {
                 visor.textContent = valorTecla;
             }
-        } else {
+        }
+        else {
             visor.textContent = valorVisor + valorTecla;
         }
     }
@@ -67,7 +69,8 @@ teclas.addEventListener('click', (e) => {
     if (tipoTecla === 'recuperar') {
         if (memoria === undefined) {
             visor.textContent = '0';
-        } else {
+        }
+        else {
             visor.textContent = memoria;
         }
     }
